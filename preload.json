@@ -1,0 +1,11 @@
+{
+    "sounds":
+    [
+        "doors/1/open_1",
+        "doors/1/open_2",
+        "doors/1/open_3",
+        "doors/1/close_1",
+        "doors/1/close_2",
+        "doors/1/close_3"
+    ]
+}
