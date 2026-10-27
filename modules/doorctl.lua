@@ -55,7 +55,7 @@ function _M.open(x, y, z)
         block.set_user_bits(x, y, z, 0, 2, b)
     end
 
-    audio.play_sound("doors/1/open_" .. (b + 1), x, y, z, 1, 1)
+    audio.play_sound("doors/1/open_" .. (b + 1), x + 0.5, y + 1, z + 0.5, 1, 1)
 end
 
 function _M.close(x, y, z)
@@ -67,7 +67,7 @@ function _M.close(x, y, z)
     if b > 2 then b = 0 end
 
     b = b + 1
-    audio.play_sound("doors/1/close_" .. b, x, y, z, 1, 1)
+    audio.play_sound("doors/1/close_" .. b, x + 0.5, y + 1, z + 0.5, 1, 1)
     if b > 2 then b = 0 end
     block.set_user_bits(x, y, z, 0, 2, b)
 end
