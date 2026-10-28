@@ -1,0 +1,9 @@
+{
+    "texture": "door1",
+    "fields":
+    {
+        "door_x": { "type": "int64" },
+        "door_y": { "type": "int64" },
+        "door_z": { "type": "int64" }
+    }
+}
