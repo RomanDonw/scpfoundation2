@@ -6,6 +6,11 @@
         "doors/1/open_3",
         "doors/1/close_1",
         "doors/1/close_2",
-        "doors/1/close_3"
+        "doors/1/close_3",
+
+        "interaction/button/success",
+        "interaction/button/fail",
+        "interaction/cardreader/success",
+        "interaction/cardreader/fail"
     ]
 }
