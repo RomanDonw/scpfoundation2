@@ -13,7 +13,7 @@
             {
                 "model": "custom",
                 "model-name": "door1_open",
-                "hitbox": [0, 0, 0.4, 0.1, 2, 0.6]
+                "hitbox": [0, 0, 0.4, 0.1, 2, 0.2]
             }
         ]
     },

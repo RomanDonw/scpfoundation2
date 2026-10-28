@@ -1,17 +1,11 @@
 local doorctl = require "doorctl"
+local itr = require "interactor"
 
-function on_block_present(x, y, z)
+function on_placed(x, y, z, pid)
     doorctl.lastitime.set(x, y, z, -math.huge)
 end
 
 function on_interact(x, y, z, pid)
-    local itime = doorctl.lastitime.get(x, y, z)
-    local wtime = world.get_total_time()
-    
-    if wtime >= itime + 2 then
-        doorctl.toggle(x, y, z)
-        doorctl.lastitime.set(x, y, z, wtime)
-    end
-
+    itr.usedoor(x, y, z)
     return true
 end

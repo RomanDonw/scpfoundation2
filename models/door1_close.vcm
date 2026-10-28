@@ -1,5 +1,5 @@
-@box from (0,0,0.4) to (1,2,0.6)
+@box from(0, 0, 0.4) to(1, 2, 0.6)
 {
-    @part tags (front) texture "blocks:door1" region (0,0,0.8888888888888888888,1)
-    
+    @part tags(north, south) texture(blocks:door1) region(0, 0, 1, 1)
+    @part tags(west, east, top, bottom) texture(blocks:doorside) region(0, 0, 1, 1)
 }
