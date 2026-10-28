@@ -11,6 +11,7 @@
     {
         "door_x": { "type": "int64" },
         "door_y": { "type": "int64" },
-        "door_z": { "type": "int64" }
+        "door_z": { "type": "int64" },
+        "locked": { "type": "int8" }
     }
 }
